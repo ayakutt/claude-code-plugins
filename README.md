@@ -10,4 +10,4 @@ Claude Code plugins by [ayakutt](https://github.com/ayakutt).
 
 ## Plugins
 
-- **[histsync](plugins/histsync)** — Adds bash commands Claude Code runs on your behalf to your bash history.
+- **[histsync](plugins/histsync)** — Adds commands Claude Code runs on your behalf to your shell history. Auto-detects atuin, mcfly, fish, zsh, and bash.

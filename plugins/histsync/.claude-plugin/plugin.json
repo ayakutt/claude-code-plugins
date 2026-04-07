@@ -1,7 +1,7 @@
 {
   "name": "histsync",
   "version": "1.0.0",
-  "description": "Adds bash commands Claude Code runs on your behalf to your bash history.",
+  "description": "Adds commands Claude Code runs on your behalf to your shell history.",
   "author": {
     "name": "ayakutt",
     "url": "https://github.com/ayakutt"

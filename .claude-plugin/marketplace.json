@@ -11,7 +11,7 @@
     {
       "name": "histsync",
       "source": "./plugins/histsync",
-      "description": "Adds bash commands Claude Code runs on your behalf to your bash history.",
+      "description": "Adds commands Claude Code runs on your behalf to your shell history. Auto-detects atuin, mcfly, fish, zsh, and bash.",
       "version": "1.0.0",
       "author": {
         "name": "ayakutt"
@@ -21,6 +21,10 @@
         "history",
         "shell",
         "bash",
+        "zsh",
+        "fish",
+        "atuin",
+        "mcfly",
         "hook"
       ]
     }
