@@ -33,6 +33,8 @@ brew install node        # macOS
 apt install nodejs       # Debian/Ubuntu
 ```
 
+> **Heads up:** Older versions of this plugin assumed Node was bundled with Claude Code itself. That was true for early npm-distributed Claude Code, but not for the current native-binary install (`~/.local/share/claude/versions/…`). If Node is missing, the plugin will print a clear error on the first Bash tool call instead of failing silently.
+
 ## Install
 
 ```sh

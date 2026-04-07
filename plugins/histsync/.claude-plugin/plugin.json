@@ -15,7 +15,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "node ${CLAUDE_PLUGIN_ROOT}/hooks/history-sync.js"
+            "command": "command -v node >/dev/null 2>&1 || { echo 'histsync: node is required but not installed. Install with: apt install nodejs (Debian/Ubuntu), brew install node (macOS). See https://github.com/ayakutt/claude-code-plugins/tree/main/plugins/histsync#requirements' >&2; exit 2; }; node ${CLAUDE_PLUGIN_ROOT}/hooks/history-sync.js"
           }
         ]
       }
