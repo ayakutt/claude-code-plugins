@@ -1,0 +1,28 @@
+{
+  "name": "claude-plugins-ayakutt",
+  "owner": {
+    "name": "ayakutt"
+  },
+  "metadata": {
+    "description": "Claude Code plugins by ayakutt",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "histsync",
+      "source": "./plugins/histsync",
+      "description": "Adds bash commands Claude Code runs on your behalf to your bash history.",
+      "version": "1.0.0",
+      "author": {
+        "name": "ayakutt"
+      },
+      "category": "development",
+      "keywords": [
+        "history",
+        "shell",
+        "bash",
+        "hook"
+      ]
+    }
+  ]
+}

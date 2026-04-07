@@ -1,0 +1,24 @@
+{
+  "name": "histsync",
+  "version": "1.0.0",
+  "description": "Adds bash commands Claude Code runs on your behalf to your bash history.",
+  "author": {
+    "name": "ayakutt",
+    "url": "https://github.com/ayakutt"
+  },
+  "homepage": "https://github.com/ayakutt/claude-code-plugins/tree/main/plugins/histsync",
+  "license": "MIT",
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node ${CLAUDE_PLUGIN_ROOT}/hooks/history-sync.js"
+          }
+        ]
+      }
+    ]
+  }
+}
