@@ -1,0 +1,13 @@
+{
+  "name": "guided-steps",
+  "description": "Delivers multi-step instructions one step at a time, waiting for confirmation before proceeding.",
+  "version": "1.0.0",
+  "author": {
+    "name": "ayakutt",
+    "email": "alperen@ayakutt.com"
+  },
+  "homepage": "https://github.com/ayakutt/claude-code-plugins",
+  "repository": "https://github.com/ayakutt/claude-code-plugins",
+  "license": "MIT",
+  "keywords": ["skills", "step-by-step", "guided", "instructions", "tutorial"]
+}
