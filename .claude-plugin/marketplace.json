@@ -22,6 +22,19 @@
         "mcfly",
         "hook"
       ]
+    },
+    {
+      "name": "guided-steps",
+      "source": "./plugins/guided-steps",
+      "category": "productivity",
+      "keywords": [
+        "step-by-step",
+        "guided",
+        "instructions",
+        "tutorial",
+        "walkthrough",
+        "skill"
+      ]
     }
   ]
 }
